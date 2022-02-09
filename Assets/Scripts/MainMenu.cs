@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject MainMenuScreen, SettingsMenuScreen;
+    public GameObject MainMenuScreen, SettingsMenuScreen, CreditsScreen;
 
     void Awake()
     {
         MainMenuScreen.SetActive(true);
         SettingsMenuScreen.SetActive(false);
+        CreditsScreen.SetActive(false);
     }
 
     // Start is called before the first frame update
@@ -43,6 +44,24 @@ public class MainMenu : MonoBehaviour
     {
         MainMenuScreen.SetActive(false);
         SettingsMenuScreen.SetActive(true);
+    }
+
+    public void Credits()
+    {
+        MainMenuScreen.SetActive(false);
+        CreditsScreen.SetActive(true);
+    }
+
+    public void CreditsBack()
+    {
+        MainMenuScreen.SetActive(true);
+        CreditsScreen.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
     }
 
 }

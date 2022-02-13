@@ -31,7 +31,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         //Loads the main game scene by name
-        SceneManager.LoadScene(sceneName: "MainGame");
+        SceneManager.LoadScene(sceneName: "MainGamePrototype");
     }
 
     /*public void LoadGame()

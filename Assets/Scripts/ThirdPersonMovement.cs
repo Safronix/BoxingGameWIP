@@ -9,6 +9,13 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public float speed = 6f;
 
+    void Start()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
+
     // Update is called once per frame
     void Update()
     {

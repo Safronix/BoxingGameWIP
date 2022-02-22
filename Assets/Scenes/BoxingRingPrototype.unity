@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &15888310
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2556133
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.059824467
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.99772525
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
+      propertyPath: m_Name
+      value: Boxing Ring
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
 --- !u!1 &44917587
 GameObject:
   m_ObjectHideFlags: 3
@@ -649,63 +706,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &555652140
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.1369181
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.19311762
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.1641849
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
-      propertyPath: m_Name
-      value: Boxing Ring
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4aa9c40f0e86b9447a005a3523e01c20, type: 3}
 --- !u!1 &594472695
 GameObject:
   m_ObjectHideFlags: 3
